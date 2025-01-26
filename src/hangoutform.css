@@ -29,7 +29,7 @@
     text-align: left;
 }
 
-
+/*
 #submission_deadline, #voting_deadline {
     font-size: 10px;
     border-radius: 10px;
@@ -38,7 +38,7 @@
     height: 1vw;
     width: 7vw;
 }
-
+*/
 
 #createpickle {
         align-items: center;
@@ -55,9 +55,6 @@
     color: white;
 }
 
-label {
-    font-size: 10px;
-}
 
 .enddate {
     font-size: 15px;

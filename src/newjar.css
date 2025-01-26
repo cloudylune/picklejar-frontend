@@ -2,6 +2,8 @@
     background: radial-gradient(circle, #81E0AF, #0DB59E);
     overflow: hidden;
     height: 100%;
+    color: #161522;
+    font-family: "Varela Round";
 }
 
 #sidebarmain {
@@ -15,4 +17,192 @@
     position: absolute;
     margin-left: 30px;
     margin-top: 175px;
+}
+
+
+p {
+    margin: 0rem;
+}
+
+.mainContent {
+    display: flex;
+    padding: 5rem 16.8125rem 15.25rem 8.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4.375rem;
+    align-self: stretch;
+}
+
+.leftFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3.125rem;
+}
+
+.progressCircles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+.largeCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    /* Outer green background */
+    border-radius: 50%;
+    /* Makes it a circle */
+    border: 2px solid #9AE0C3;
+}
+
+.smallCircle {
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: #0DB59E;
+    /* Inner white circle */
+    border-radius: 50%;
+}
+
+.barCircles {
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+
+    border-radius: 6.25rem;
+    background: #FFF;
+}
+
+.progressText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.125rem;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    text-align: right;
+    width: 15rem;
+}
+
+.stepMain {
+    font-size: 1.275rem;
+}
+
+
+.rightFrame {
+    display: flex;
+    width: 37rem;
+    height: 34rem;
+    padding: 4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+}
+
+.formFields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.625rem;
+    align-self: stretch;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.625rem;
+    align-self: stretch;
+}
+
+.formTitle {
+    flex: 1 0 0;
+    color: #161522;
+    font-family: "Love Ya Like A Sister";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionTop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.setEndDate {
+    font-size: 1.25rem;
+}
+
+.sectionBottom2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    align-self: stretch;
+}
+
+
+input {
+    width: 90%;
+    height: 3.1875rem;
+    border-radius: 0.6375rem;
+    border: 0.1rem solid #8D8D8D;
+    padding-left: 1rem;
+}
+
+.button {
+
+    /* Add spacing between child elements (if any, like an icon and text) */
+    border-radius: 0.625rem;
+    /* Rounded corners */
+    background-color: #048D86;
+    border: none;
+    color: white;
+    padding: 1.5rem 1.875rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #036f69;
+    /* Darken background on hover */
+}
+
+label {
+    font-size: 15px;
 }
