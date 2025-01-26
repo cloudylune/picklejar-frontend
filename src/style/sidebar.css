@@ -1,8 +1,9 @@
 .container {
     position: relative;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 150px;
   }
 
 .rectangle {
@@ -48,3 +49,27 @@
     transform: translateX(-50%);
 }
   
+  /* Text styling */
+  .circle-top {
+    font-size: 16px;
+    position: absolute;
+    margin: 0; /* Remove any default margin */
+    align-items: right;
+    transform: translateY(150%);
+}
+
+.circle-middle {
+    font-size: 16px;
+    position: absolute;
+    margin: 0; /* Remove any default margin */
+    align-items: right;
+    transform: translateY(290%);
+}
+
+.circle-bottom {
+    font-size: 16px;
+    position: absolute;
+    margin: 0; /* Remove any default margin */
+    align-items: right;
+    transform: translateY(400%);
+}

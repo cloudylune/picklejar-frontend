@@ -10,6 +10,11 @@ function Sidebar() {
                 <div className="circle circle-2"></div>
                 <div className="circle circle-3"></div>
             </div>
+            
+
+                <p className="circle-top">Step 1</p>
+                <p className="circle-middle">Make a Suggestion</p>
+                <p className="circle-bottom">Today</p>
         </>
     );
 }
