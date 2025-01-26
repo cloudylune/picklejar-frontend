@@ -1,3 +1,10 @@
+.container {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 .rectangle {
     display: flex;
     padding: 1.25rem;
@@ -12,14 +19,32 @@
     height: 21vw;
     border-radius: 100px;
     position: relative;
-    opacity: 0.5;
 }
 
 .circle {
-    border-color: #9AE0C3;
+    border: #9AE0C3;
+    border-style: solid;
+    border-width: 2px;
     height: 5vw;
     width: 5vw;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
+    left: 50%;
 }
+  
+.circle-1 {
+    top: 2vw; /* Position above the rectangle */
+    transform: translateX(-50%);
+}
+  
+.circle-2 {
+    top: 9.5vw; /* Position above the rectangle */
+    transform: translateX(-50%);
+}
+  
+.circle-3 {
+    top: 17vw;
+    transform: translateX(-50%);
+}
+  

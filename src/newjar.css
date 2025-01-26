@@ -1,0 +1,11 @@
+#newjarmain {
+    background: radial-gradient(circle, #81E0AF, #0DB59E);
+    overflow: hidden;
+    height: 100%;
+}
+
+#sidebarmain {
+    display: inline-flex;
+    padding-left: 25vw;
+    padding-top: 15vw;
+}
