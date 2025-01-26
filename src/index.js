@@ -10,7 +10,7 @@ import HangoutForm from './hangoutform';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HangoutForm /> {/* This is where App is rendered */}
+    <App /> {/* This is where App is rendered */}
   </React.StrictMode>
 );
 

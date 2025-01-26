@@ -8,7 +8,7 @@ function Newjar() {
         <>
         <body id="newjarmain">
             <div id="sidebarmain"> <Sidebar/> </div>
-            <div> <HangoutForm /> </div>
+            <div id="form1"> <HangoutForm /> </div>
         </body>
         </>
     );

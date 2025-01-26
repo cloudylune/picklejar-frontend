@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import './hangoutform.css';
+
 
 function HangoutForm() {
+
   // Step 1: Set up state to store form values
   const [formData, setFormData] = useState({
     name: '',
@@ -25,11 +28,11 @@ function HangoutForm() {
   };
 
   return (
-    <div>
-      <h1>Create a Hangout</h1>
+    <div id="picklejarform">
+      <h1 id="newpicklejar">New pickle jar</h1>
       <form id="hangoutForm" onSubmit={handleSubmit}>
         {/* Hangout Name */}
-        <label htmlFor="name">Hangout Name:</label>
+        <label htmlFor="name">What decision are you trying to make?</label>
         <input
           type="text"
           id="name"
@@ -40,8 +43,11 @@ function HangoutForm() {
         />
         <br /><br />
         
+        <p class="enddate">Set End Date</p>
+
+        <div id="form_section">
         {/* Submission Deadline */}
-        <label htmlFor="submission_deadline">Submission Deadline:</label>
+        <label htmlFor="submission_deadline">Suggesting Period<br></br></label>
         <input
           type="datetime-local"
           id="submission_deadline"
@@ -52,8 +58,9 @@ function HangoutForm() {
         />
         <br /><br />
     
-        {/* Voting Deadline */}
-        <label htmlFor="voting_deadline">Voting Deadline:</label>
+    
+        {/* Voting Deadline & CHECK VARIABLES!*/}
+        <label htmlFor="voting_deadline">Voting Period<br></br></label>
         <input
           type="datetime-local"
           id="voting_deadline"
@@ -63,8 +70,9 @@ function HangoutForm() {
           required
         />
         <br /><br />
+        </div>
         
-        <button type="submit">Create Hangout</button>
+        <button type="submit" id="createpickle"><span id="createpickletext">Create a pickle jar</span></button>
       </form>
     </div>
   );

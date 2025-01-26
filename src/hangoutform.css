@@ -1,0 +1,65 @@
+#picklejarform {
+    background-color: white; /* White background for the container */
+    padding-left: 3rem; /* Add padding inside the container */
+    padding-top: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    width: 25rem; /* Fixed width for the form container */
+    height: 25rem;
+    text-align: left; /* Center align content inside */
+}
+
+#newpicklejar {
+    font-family: "Love Ya Like A Sister";
+}
+
+#hangoutForm {
+    font-family: "Varela Round";
+    margin-bottom: 2vw;
+}
+
+#name {
+    border: 0.85px solid;
+    border-color: #8d8d8d;
+    border-radius: 10px;
+    width: 20vw;
+    height: 2vw;
+    border: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+
+#submission_deadline, #voting_deadline {
+    font-size: 10px;
+    border-radius: 10px;
+    border: 0.85px solid;
+    border-color: #8d8d8d;
+    height: 1vw;
+    width: 7vw;
+}
+
+
+#createpickle {
+        align-items: center;
+        background-color: #048D86;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: center;
+        padding: 18px 28px;
+        position: relative;
+        border: none;
+
+}
+
+#createpickletext {
+    color: white;
+}
+
+label {
+    font-size: 10px;
+}
+
+.enddate {
+    font-size: 15px;
+}
