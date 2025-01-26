@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import './index.css';
+// import App from './App';
+
+import Home from './home.js';
+import Newjar from './newjar.js';
+import Sidebar from './sidebar.js';
+//<Home />
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Home />
+    
   </React.StrictMode>
 );
 
